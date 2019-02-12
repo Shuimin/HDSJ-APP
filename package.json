@@ -1,0 +1,31 @@
+{
+  "name": "hdsj-app",
+  "version": "1.0.0",
+  "description": "hdsj-app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shuimin/HDSJ-APP.git"
+  },
+  "keywords": [
+    "花点时间",
+    "hdsj"
+  ],
+  "author": "sun huimin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Shuimin/HDSJ-APP/issues"
+  },
+  "homepage": "https://github.com/Shuimin/HDSJ-APP#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mysql": "^2.16.0",
+    "session": "^0.1.0"
+  }
+}
